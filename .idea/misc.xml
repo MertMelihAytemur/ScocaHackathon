@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/drawable-v24/bg_searchview.xml" value="0.208" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/drawable-v24/car_density_green.xml" value="0.2665" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/drawable-v24/heart.xml" value="0.2845" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/drawable-v24/heart_filled.xml" value="0.2845" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/drawable-v24/ic_settings.xml" value="0.2665" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/activity_main.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_bus_detail.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_feed_back.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_liked_place.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_on_boarding_first.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_on_boarding_second.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_on_boarding_third.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_splash_screen.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/fragment_view_pager.xml" value="0.3703125" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/item_liked_place.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/item_place.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="..\:/Users/mertm/Desktop/All/SoftwareEngineering/Android/AndroidProjects/ScocaHackathon/app/src/main/res/menu/nav_menu.xml" value="0.3854166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "245264181090",
+    "firebase_url": "https://scocahackathon-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "scocahackathon",
+    "storage_bucket": "scocahackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245264181090:android:223f34af1ac337dbad2e3b",
+        "android_client_info": {
+          "package_name": "xyz.scoca.scocahackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245264181090-17gitcj43g08plga3rkqvpe12svghn8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.scoca.scocahackathon",
+            "certificate_hash": "54195bf0d7125ae2109a3e2924942a66bd2db15f"
+          }
+        },
+        {
+          "client_id": "245264181090-nal7mltjv95mcs90r2m91to4npod0smt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTmSGpyzaak45RjieF63UXv12vKGQoVC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245264181090-nal7mltjv95mcs90r2m91to4npod0smt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

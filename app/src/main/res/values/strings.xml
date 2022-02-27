@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SCOCA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="send">Send</string>
+    <string name="your_experience">Your experience...</string>
+    <string name="tell_us_what_we_can_improved">Tell us what we can Improved?</string>
+    <string name="are_you_satisfied_with_the_service">Are you satisfied with the Service?</string>
+    <string name="rate_your_experience">Rate Your Experience</string>
+    <string name="parks">Parks</string>
+    <string name="bus">Bus</string>
+    <string name="mall">Mall</string>
+    <string name="hospital">Hospital</string>
+    <string name="your_history_empty">Your History Empty</string>
+    <string name="history">History</string>
+    <string name="place_name">Place Name</string>
+    <string name="average_density">Average Density :</string>
+    <string name="place_point">Place Point :</string>
+    <string name="date_and_time">Date And Time</string>
+</resources>

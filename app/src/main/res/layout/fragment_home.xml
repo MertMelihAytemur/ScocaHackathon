@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SearchView
+            android:id="@+id/svDestination"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_searchview"
+            android:closeIcon="@drawable/ic_clear"
+            android:iconifiedByDefault="false"
+            android:queryHint="Search Destination"
+            android:searchIcon="@drawable/ic_search"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/ivRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/carrot_orange"
+            android:src="@drawable/ic_sync_white"
+            app:layout_constraintBottom_toBottomOf="@id/svDestination"
+            app:layout_constraintBottom_toTopOf="@id/linearLayoutChips"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/svDestination" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutChips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/svDestination">
+
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:singleSelection="true">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipParks"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:checkable="true"
+                    app:chipStrokeColor="@color/teal_200"
+                    android:checked="true"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:text="@string/parks"
+                    android:textAlignment="center"
+                    app:chipStrokeWidth="1dp" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipBus"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:checkable="true"
+                    app:chipStrokeColor="@color/teal_200"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:text="@string/bus"
+                    android:textAlignment="center"
+                    app:chipStrokeWidth="1dp"
+                    />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipMall"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/white"
+                    app:chipStrokeColor="@color/teal_200"
+                    android:backgroundTint="@color/white"
+                    android:checkable="true"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:text="@string/mall"
+                    android:textAlignment="center"
+                    app:chipStrokeWidth="1dp"
+                    />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chipHospital"
+                    style="@style/Widget.MaterialComponents.Chip.Choice"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/white"
+                    app:chipStrokeColor="@color/teal_200"
+                    android:backgroundTint="@color/white"
+                    android:checkable="true"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:text="@string/hospital"
+                    android:textAlignment="center"
+                    app:chipStrokeWidth="1dp"
+                    />
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/linearLayoutChips">
+
+            <fragment
+                android:id="@+id/fMapLocation"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/carrot_orange"
+            android:indeterminateTintMode="src_atop"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPlaceData"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
